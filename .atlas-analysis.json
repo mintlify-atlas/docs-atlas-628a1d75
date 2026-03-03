@@ -1,0 +1,143 @@
+{
+  "projectType": "data-platform",
+  "projectName": "Apache Druid",
+  "projectDescription": "A high-performance real-time analytics database designed for fast queries and data ingestion at scale.",
+  "theme": "aspen",
+  "primaryColor": "#2563eb",
+  "lightColor": "#60a5fa",
+  "darkColor": "#1e40af",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/architecture",
+              "concepts/data-model",
+              "concepts/segments",
+              "concepts/services",
+              "concepts/storage"
+            ]
+          },
+          {
+            "group": "Data Ingestion",
+            "pages": [
+              "ingestion/overview",
+              "ingestion/streaming",
+              "ingestion/batch",
+              "ingestion/kafka",
+              "ingestion/kinesis",
+              "ingestion/native-batch",
+              "ingestion/schema-design",
+              "ingestion/rollup",
+              "ingestion/partitioning"
+            ]
+          },
+          {
+            "group": "Querying",
+            "pages": [
+              "querying/overview",
+              "querying/druid-sql",
+              "querying/native-queries",
+              "querying/multi-stage-query",
+              "querying/aggregations",
+              "querying/filters",
+              "querying/joins",
+              "querying/performance"
+            ]
+          },
+          {
+            "group": "Operations",
+            "pages": [
+              "operations/deployment",
+              "operations/configuration",
+              "operations/web-console",
+              "operations/data-management",
+              "operations/compaction",
+              "operations/retention",
+              "operations/security",
+              "operations/monitoring",
+              "operations/troubleshooting"
+            ]
+          },
+          {
+            "group": "Tutorials",
+            "pages": [
+              "tutorials/quickstart-tutorial",
+              "tutorials/batch-ingestion",
+              "tutorials/kafka-ingestion",
+              "tutorials/query-tutorial",
+              "tutorials/rollup-tutorial"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "api/overview"
+            ]
+          },
+          {
+            "group": "HTTP APIs",
+            "pages": [
+              "api/sql-api",
+              "api/sql-ingestion-api",
+              "api/native-query-api",
+              "api/tasks-api",
+              "api/supervisor-api",
+              "api/data-management-api",
+              "api/lookups-api",
+              "api/retention-rules-api",
+              "api/compaction-api",
+              "api/service-status-api",
+              "api/dynamic-config-api"
+            ]
+          },
+          {
+            "group": "JDBC Driver",
+            "pages": [
+              "api/jdbc-driver"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Real-time and batch data ingestion from Kafka, Kinesis, and files",
+    "SQL and native query interfaces for analytics",
+    "Distributed architecture with specialized services (Coordinator, Broker, Historical, Overlord)",
+    "Column-oriented storage with segment-based data organization",
+    "Multi-stage query engine for complex analytics",
+    "Built-in web console for data management and monitoring",
+    "Automatic compaction and retention management",
+    "Support for streaming and batch workloads"
+  ],
+  "publicApiSurface": [
+    "SQL Query API (HTTP and JDBC)",
+    "Native JSON Query API",
+    "SQL Ingestion API",
+    "Tasks API (data ingestion management)",
+    "Supervisor API (streaming ingestion lifecycle)",
+    "Data Management API (segment operations)",
+    "Lookups API (key-value datasources)",
+    "Retention Rules API",
+    "Automatic Compaction API",
+    "Service Status API",
+    "Dynamic Configuration API"
+  ]
+}
